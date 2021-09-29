@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <!-- Google fonts Montserra (thin 100/regular 400/bold 900)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- font awsome icons -->
+    <script src="https://kit.fontawesome.com/b90352fb67.js" crossorigin="anonymous"></script>
+
+<title>KréaSite</title>
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+      <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand text-light" href="">KréaSite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="">services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">a propos de nous</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">contact</a></li>
+                </ul>    
+            </div>
+          </nav>
+  
+  
+    <!-- Title -->
+                    <!-- left section of the title -->
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div>
+                <h1>Création de votre site internet professionel.</h1>
+                <button type="button" class="btn btn-dark btn-lg head-btn"><i class="far fa-envelope" ></i> &nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp; </button>
+                <button type="button" class="btn btn-outline-light btn-lg head-btn"> C'est parti ! <i class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+                    <!-- right section of the title -->
+            <div class="title-right-column col-lg-6 col-sm-12">
+              <div>
+                <img id="head-img" src="images/head picf.png" alt="iphone-mockup">
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+  
+  
+    <!-- Features -->
+  
+    <section id="features">
+      
+      <div class="row">
+
+                    <!-- budget -->
+        <div class="col-lg-4 col-md-12 features-div">
+          <i class="fas fa-check-circle fa-4x features-icon"></i>
+          <h3>Budget maîtrisé</h3>
+          <p>Votre budget est connu d’avance, pas de mauvaise surprise.</p>
+        </div>
+
+                    <!-- Rapide -->
+        <div class="col-lg-4 col-md-12 features-div">
+          <i class="far fa-clock fa-4x features-icon"></i>
+          <h3>Rapide</h3>
+          <p>Grace à une méthodologie optimisée et des choix technologiques maitrisés.</p>
+        </div>
+
+                     <!-- simple -->
+        <div class="col-lg-4 col-md-12 features-div">
+          <i class="fas fa-heart fa-4x features-icon"></i>
+          <h3>Simple</h3>
+          <p>une interface facile et simple, tout en proposant un large éventail d'options.</p>
+        </div>      
+      </div>
+      
+    </section>
+  
+  
+    <!-- Testimonials -->
+  
+    <section id="testimonials">  
+      <!-- carousel id doit etre le meme button id si non les bouttons ne fonctionnes pas 
+      on peut controler les options de bootstrap a coté il y a OPTIONS pour changer la 
+      rapidité de changer les slides et arreter le changement des slides quand le mouse
+       est hover sur le carousel et plusieurs choix possible -->
+      <div id="carousel-feedback" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover" data-bs-interval="4000">
+        <div class="carousel-inner">
+          <!-- first carousel-->
+          <div class="carousel-item active">
+            <h2>Le mix entre simplicité, qualité, budget maîtrisé.
+                A recommander, sans hésitation.</h2>
+            <img class="testimonials-image" src="images/8.png" alt="man-profile">
+            <em>Pebbles, Lyon</em>
+          </div>
+          <!-- second carousel-->
+          <div class="carousel-item">
+            <h2>Communication fluide et bonne ambiance. Travail 
+                conforme à nos demandes. Merci</h2>
+            <img class="testimonials-image" src="images/women.png" alt="women-profile">
+            <em>Beverly, Canada</em>
+          </div>
+          <!-- third carousel-->
+          <div class="carousel-item">
+            <h2>Le site est splendide, il répond parfaitement à nos attentes. Très bon
+                rapport qualité prix.</h2>
+            <img class="testimonials-image" src="images/man3.png" alt="dog-profile">
+            <em>IONOS, Australie</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-feedback" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-feedback" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  
+  
+    <!-- Press -->
+  
+    <section id="press">
+      <img class="press-image" src="images/techcrunch.png" alt="tc-logo">
+      <img class="press-image" src="images/tnw.png" alt="tnw-logo">
+      <img class="press-image" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="press-image" src="images/mashable.png" alt="mashable-logo">
+  
+    </section>
+  
+  
+    <!-- pricing -->
+  
+    <section id="pricing">
+      <div class="head-pricing">
+      <h2>Nos offres</h2>
+      <p>KréaSite, c’est 3 offres qui répondent aux besoins essentiels pour exister sur le web.</p>
+      </div>
+
+      <div class="row cards-section">
+      <!-- first card-->
+      <div class="column-pricing col-lg-4 col-md-6">
+      <div class="card text-center" style="width: 20rem;">
+        <div class="card-header">
+          <h3>Valorisez votre expertise</h3>
+        </div>
+        <div class="card-body">
+          
+          <h2>Mini-Site</h2>
+          <p>Le mini-site onepage: présentez votre activité sur une seule page</p>
+          <p>1950€</p>
+          <p>Tout compris</p>
+          <a href="" class="btn-card btn btn-lg d-grid gap-2 btn-outline-dark">En savoir plus</a>
+        </div>
+      </div>
+      </div>
+      
+      <!-- second card-->
+      <div class="column-pricing col-lg-4 col-md-6">
+        <div class="card text-center" style="width: 20rem;">
+          <div class="card-header">
+            <h3>Soyez présent sur le web</h3>
+          </div>
+          <div class="card-body">
+            
+            <h2>Site Vitrine</h2>
+            <p>Le site vitrine : la base de votre visibilité sur le web.</p>
+            <p>2950€</p>
+            <p>Tout compris</p>
+            <a href="" class="btn-card btn btn-lg d-grid gap-2 btn-outline-dark">En savoir plus</a>
+          </div>
+        </div>
+        </div>
+
+      <!-- third card -->
+      <div class="column-pricing col-lg-4 col-md-6">
+        <div class="card text-center" style="width: 20rem;">
+          <div class="card-header">
+            <h3>Vendez vos produits en ligne</h3>
+          </div>
+          <div class="card-body">
+            
+            <h2>Site e-commerce</h2>
+            <p>Vous êtes commerçant ?</br>Devenez e-commerçant !</p>
+            <p>4950€</p>
+            <p>Tout compris</p>
+            <a href="" class="btn-card btn btn-lg d-grid gap-2 btn-outline-dark">En savoir plus</a>
+          </div>
+        </div>
+      </div>    
+    </section>
+  
+  
+    <!-- Call to Action -->
+  
+    <section id="cta">
+  
+      <h3>Nous visons l’excellence. Voyez par vous même.</h3>
+      <button class="button-cta btn btn-lg btn-dark" type="button"><i class="far fa-envelope" ></i> &nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;</button>
+      <button class="button-cta btn btn-lg btn-light" type="button">C'est parti ! <i class="fas fa-arrow-right"></i></button>
+  
+    </section>
+  
+  
+    <!-- Footer -->
+  
+    <footer id="footer">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fas fa-envelope"></i>
+      <p>© Copyright 2021 KréaSite</p>
+  
+    </footer>
+  
+  
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

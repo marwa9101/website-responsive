@@ -1,0 +1,193 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEEEEE;
+}
+#title{
+    background-color: #F8485E;
+    color: #EEEEEE;
+}
+h1{ 
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    color: #EEEEEE;
+}
+em{
+    color: #EEEEEE;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+/******** navbar *********/
+.navbar {
+    padding-bottom: 5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: #EEEEEE;
+}
+.nav-item{
+    padding: 0 .7rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/******** buttons ********/
+.head-btn{
+    margin: 5% 3% 0 0;
+}
+/********* image ********/
+#head-img{
+    width: 400px;
+    
+}
+p{
+    color: #8f8f8f;
+    
+}
+/********* features *********/
+/*****icons****/
+.features-icon{
+    color: #FE8F8F;
+    margin-bottom: 1rem;
+}
+.features-icon:hover{
+    color: #F8485E;
+}
+
+/*****divs****/
+#features{
+    font-size: 1rem;
+    padding: 6% 13%;  
+}
+.features-div{
+    text-align: center;
+    padding: 5%;
+}
+
+/********* Testimonials *********/
+#testimonials{
+    background-color: #FE8F8F ;
+    padding: 7% 15% ;
+    text-align: center;
+    color: #EEEEEE;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    background-color: #EEEEEE;
+    margin: 20px;
+}
+/*********** Press ***********/
+#press{
+    background-color: #FE8F8F;
+    text-align: center;
+    padding: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/********* services **********/
+#pricing{           /*لاعطاء مسافة بينه وبين حدود الصفحة وتوسيطه في الصفحة*/
+    padding: 5% 10%;
+    text-align: center;
+}
+.head-pricing{
+    line-height: 2;
+}
+.cards-section{
+    margin-top: 30px;
+}
+/*#pricing h2{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 900;
+}*/
+.head-pricing h2{
+    color: #000;
+    font-weight: 700;
+    
+}
+.column-pricing{          /*لاعطاء مسافة بين الكارت الواحد عن الاخر */
+    padding: 3% 2%;
+}
+#pricing h3{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000; 
+}
+.card-header{
+    background-color: #dbdbdb;
+    padding-top: 20px;
+}
+.card-header :nth-child(1){
+    color: #EEEEEE;
+}
+.card-body{
+    padding: 3% 2%;
+    background-color: #EEEEEE;
+}
+.card-body :nth-child(3){
+    font-size: 2rem;
+    font-weight: 900;
+    color: #000;
+}
+.card-body :nth-child(1){
+    margin-top: 7%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000;
+}
+.btn-card{
+    margin-top: 20px;
+}
+/*to make challenge z-index
+#head-img{
+position: relative;
+    z-index: 1;
+    top: 7rem;
+}*/
+/*********call to action **********/
+#cta{
+    background-color: #F8485E;
+    text-align: center;
+    height: 400px;
+    padding: 8% 6%;
+}
+#cta h3{
+    margin-bottom: 4%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #EEEEEE;
+}
+.button-cta{
+    margin: 1%;
+    font-size: 1.2rem;
+}
+/********footer**********/
+#footer{
+    padding: 5%;
+    text-align: center;
+}
+#footer i{
+    padding: 0.8%;
+}
+#footer p{
+    margin-top: 15px;
+}
+
